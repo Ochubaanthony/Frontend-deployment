@@ -53,7 +53,7 @@ sudo apt install nodejs -y
 npm install
 npm run build
 ls to see if u see disk
-sudo cp -r build/* /var/www/html
+sudo cp -r dist/* /var/www/html
 sudo systemctl restart nginx
 
 RUN THE BACK END
