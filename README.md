@@ -71,7 +71,13 @@ GO TO AZURE PORTAL TO OPEN THE INBOUND RULES AND OUTBOUND RULES
 Step
 Add IP address of frontend on the backend port inbound
 Add the densitnation port 8000
+Add IP address of backend  on the frontend port inbound
+Add the densitnation port 8000
+Add port 443
+Add Port 22
+Add Port 80
+Add port 8080
+Add port 8000
+Add Port 8000 with the Frontend IP Address
 
-Repeat the same on Backend
-Add IP address of Backend on the frontend inbound
-Add the destination port 8000
+
